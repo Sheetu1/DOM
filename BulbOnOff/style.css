@@ -23,7 +23,18 @@ body {
   border-radius: 50%;
   border: 2px solid black;
 }
-button{
-    background-color:rgb(0, 94, 255);
-    color: white;border-radius: 10%;
+button {
+  padding: 12px 24px;
+  background-color: #4f46e5;
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3730a3;
+  transform: scale(1.05);
 }

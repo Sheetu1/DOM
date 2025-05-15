@@ -37,6 +37,7 @@ html,body{
     align-items: center;
     justify-content: center;
     gap: 30px;
+    cursor: pointer;
 }
 #card #btns #remove{
     background-color: rgba(128, 128, 128, 0.464);

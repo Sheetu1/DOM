@@ -22,10 +22,12 @@ add.addEventListener("click", () => {
   if (flag == 0) {
     stranger.innerHTML = "Friends";
     stranger.style.color = "green";
+    add.innerHTML = "Remove Friends";
     flag = 1;
   } else {
     stranger.innerHTML = "Stranger";
     stranger.style.color = "red";
+    add.innerHTML = "Add Friends";
     flag = 0;
   }
 });

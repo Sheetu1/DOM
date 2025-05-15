@@ -6,4 +6,31 @@
 html,body{
     height: 100%;
     width: 100%;
+    background-color: rgba(43, 189, 226, 0.207);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#container {
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+    position: relative;
+}
+#container img{
+    width: 300px;
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px;
+}
+
+#container i{
+    color: white;
+    font-size: 40px;
+    position: absolute;
+    transform: translate(-50% , -50%) scale(0);
+    top: 50%;
+    left: 50%;
 }

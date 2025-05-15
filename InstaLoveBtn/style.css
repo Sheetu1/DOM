@@ -17,6 +17,7 @@ html,body{
     background-color: white;
     border-radius: 10px;
     position: relative;
+    cursor: pointer;
 }
 #container img{
     width: 300px;
@@ -33,4 +34,6 @@ html,body{
     transform: translate(-50% , -50%) scale(0);
     top: 50%;
     left: 50%;
+    opacity: 0;
+    transition: transform ease 0.5s;
 }
